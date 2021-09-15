@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Happy Birthday!!</title>
+    <style>
+      *
+      {
+        font-family: Raleway;
+      }
+      body
+      {
+        background-color: white;
+      }
+      .wrapper
+      {
+        display: inline-flex;
+      }
+      .static-txt
+      {
+        margin-left: 100px;
+        margin-top: 250px;
+        font-weight: bold;
+        font-size: 70px;
+        color: black;
+      }
+      .dynamic-txt
+      {
+        color: darkMagenta;
+        font-size: 80px;
+      }
+      .dynamic-txt ul
+      {
+        margin-top: 310px;
+        list-style: none;
+        overflow: hidden;
+        height: 90px;
+      }
+      .dynamic-txt ul li
+      {
+        position: relative;
+        top: 0px;
+        animation: slide 5s steps(24);
+      }
+      @keyframes slide {
+        100%
+        {
+          top: -600px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class = "wrapper">
+      <div class = "static-txt">
+          <p>Happy Birthday to</p>
+        </div>
+      <div class = "dynamic-txt">
+          <ul>
+            <li>
+               ......
+              </li>
+            <li>
+              <strong>A Great Son</strong>
+              </li>
+            <li>
+              <strong>A Wonderful Friend</strong>
+              </li>
+            <li>
+              <strong>A Tireless Worker</strong>
+              </li>
+            <li>
+              <strong>An Honest Human</strong>
+              </li>
+            <li>
+              <strong>Muhesh</strong>
+              </li>
+            <li>
+              <strong>Abishek</strong>
+              </li>
+            </ul>
+        </div>
+      </div>
+  </body>
+</html>
